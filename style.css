@@ -1,14 +1,17 @@
 *{
     font-family: "Times New Roman", Times, serif;
-    background-color: rgb(203, 220, 232);
+    background-color: rgb(214, 202, 188);
+    /* max-width: 1000px; */
 }
 
 .title{
     text-align: center;
-    color: rgb(235, 13, 13);
+    /* color: rgb(235, 13, 13); */
+    color: rgb(128, 0, 0);
     font-size: 40px;
-    background-color: rgb(144, 233, 255);
+    background-color: rgb(226, 231, 186);
     padding:2px;
+    max-width: device-width;
 }
 
 .description{
@@ -16,6 +19,9 @@
     font-style: italic;
 }
 
+.parag{
+    font-size: 20px;
+}
 
 .list{
     font-size: 20px;
@@ -38,5 +44,15 @@
     border:5px;
     border-style:double;
     border-color: rgb(138, 2, 2);
+    max-width: 1000px;
 
+}
+
+a:link {
+  color: green;
+  font-size: 20px;
+}
+
+a:hover {
+  color: rgb(13, 9, 224);
 }
